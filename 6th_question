@@ -1,0 +1,8 @@
+class Solution:
+    def countDigitAppearances(self, nums, digit):
+        count = 0
+
+        for num in nums:
+            count = count + str(num).count(str(digit))
+
+        return count

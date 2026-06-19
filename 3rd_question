@@ -1,0 +1,10 @@
+s = "abab"
+
+letters = set()
+
+for ch in s:
+    letters.add(ch)
+
+answer = len(letters)
+
+print(answer)
